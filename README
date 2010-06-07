@@ -22,9 +22,9 @@ Example
 
 hash = Date.poland_holidays(2020) #Dni wolne od pracy w roku 2020
 
-hash = Date.const_feast(2020) #Dni wolne stałe
+hash = Date.const_feasts(2020) #Dni wolne stałe
 
-hash = Date.movable_feast(2020) #Dni wolne ruchome
+hash = Date.movable_feasts(2020) #Dni wolne ruchome
 
 
 Copyright (c) 2010 Prawda Michał, released under the MIT license
