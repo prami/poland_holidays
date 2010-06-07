@@ -1,0 +1,30 @@
+PolandHolidays
+==============
+
+Polskie dni ustawowo wolne od pracy dla dowolnego roku.
+
+1 stycznia – Nowy Rok
+Pierwszy dzień Wielkanocy
+Drugi dzień Wielkanocy
+1 maja – Święto Pracy
+3 maja – Święto Narodowe Trzeciego Maja
+Pierwszy dzień Zielonych Świątek
+Dzień Bożego Ciała
+15 sierpnia – Wniebowzięcie Najświętszej Maryi Panny (Święto Wojska Polskiego)
+1 listopada – Wszystkich Świętych
+11 listopada – Narodowe Święto Niepodległości
+25 grudnia – pierwszy dzień Bożego Narodzenia
+26 grudnia – drugi dzień Bożego Narodzenia
+
+
+Example
+=======
+
+hash = Date.polish_holidays(2020) #Dni wolne od pracy w roku 2020
+
+hash = Date.const_feast(2020) #Dni wolne stałe
+
+hash = Date.movable_feast(2020) #Dni wolne ruchome
+
+
+Copyright (c) 2010 Prawda Michał, released under the MIT license
