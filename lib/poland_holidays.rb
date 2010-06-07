@@ -3,12 +3,12 @@
 Date.class_eval do
 
   def self.poland_holidays(year = Date.today.year)
-    const = const_feast(year)
-    movable = self.movable_feast(year)
+    const = const_feasts(year)
+    movable = self.movable_feasts(year)
     const.merge!(movable)
   end
 
-  def self.const_feast(year = Date.today.year)
+  def self.const_feasts(year = Date.today.year)
     holidays={
       "Nowy Rok" => Date.new(year, 1, 1),
       "Święto Pracy" => Date.new(year, 5, 1),
@@ -21,7 +21,7 @@ Date.class_eval do
     }
   end
 
-  def self.movable_feast(year = Date.today.year)
+  def self.movable_feasts(year = Date.today.year)
     a = year%19
     b, c = year/100, year%100
     d, e = b/4, b%4

@@ -20,7 +20,7 @@ Dzień Bożego Ciała
 Example
 =======
 
-hash = Date.polish_holidays(2020) #Dni wolne od pracy w roku 2020
+hash = Date.poland_holidays(2020) #Dni wolne od pracy w roku 2020
 
 hash = Date.const_feast(2020) #Dni wolne stałe
 
